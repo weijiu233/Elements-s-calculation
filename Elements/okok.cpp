@@ -49,6 +49,7 @@ int main(){
     int modeNum;
     string a;
     system("chcp 65001");
+    system("cls");
     while(cout<<"请选择模式(1-2):\n"){
         cin>>modeNum;
         if(modeNum<1 or modeNum>3)
